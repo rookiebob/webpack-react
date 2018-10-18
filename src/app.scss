@@ -1,0 +1,12 @@
+$green:green;
+@mixin img-border($border:$imgStyleBorder,$padding:$imgStylePadding){
+    border: $border;
+    padding: $padding;
+  }
+.box{
+    font-size: 26px;
+    background:#666666;
+    line-height: 40px;
+    color:$green;
+    @include img-border(10px,20px)
+}

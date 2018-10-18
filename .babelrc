@@ -1,0 +1,4 @@
+{
+    "presets": ["env", "stage-0","react"], //从左向右解析
+    "plugins": ["react-hot-loader/babel"] //设置这里
+  }
